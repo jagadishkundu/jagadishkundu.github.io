@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+<title> Contact </title>
+<link type="text/css" rel="stylesheet" href="stylesheet.css">
+
+		<meta name="Description" content="Personal website of Jagadish Kundu which contains his Research work and publications. Also to access the softwares like QuickRMR, EasySMR and GISMR, developed by developed by Jagadish Kundu."/>
+		<meta name="keywords" content="RMR, SMR, QuickRMR, Easysmr, GISMR, Jagadish Kundu"/>
+		<meta http-equiv="authors" content = "Jagadish Kundu"/>
+		<meta http-equiv="content-language" content = "en-uk"/>
+</head>
+ 
+<body>
+
+
+		<div id = "header">
+		<img src = "myphoto.jpg" alt "Jagadish Kundu">
+			<h1> Jagadish Kundu <br> </h1>
+			<p>	PhD Student (Engineering geology)<br>
+					IIT-ISM Dhanbad </p>
+		
+		</div>
+		
+
+
+		<div id = "navbar">
+		 
+			<ul>
+				  <li ><a id ="home" href="index">Home</a></li>
+				  <li ><a id ="about" href="about">About me</a></li>
+				  <li ><a id ="research" href="research">Research</a></li>
+				  <li ><a id ="software" href="software">Software</a></li>
+				  <li class = "active"><a id ="contact" href="contact1">Contact</a></li>
+			</ul>
+			<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+			<script type = text/javascript>
+			
+			$(document).on('click', 'ul li', function() {
+				$(this).addClass('active').siblings().removeClass('active')
+				)
+			
+			</script>
+			
+		 
+		</div>
+	
+	
+		
+		<div class="sideright">
+			<h3 align = "center", "justify" > About this page </h3>
+			<p align = "justify"> 
+			Wnat to comment, request, any proposal or others?
+			Send me a message by filling out the details in the form.
+			</p>
+
+		</div>
+	
+		<div class="sideright">
+		
+			<h3 align = "center", "justify" > About Jagadish Kundu </h3>
+			<p align = "justify"> 
+			I am Currently a PhD student at IIT-ISM Dhanbad doing research in the field of engineering geology (slope stability and landslides).
+			</p>
+
+		</div>
+	
+		<div class="sideright">
+		
+			<h3 align = "center", "justify" > Quick links </h3>
+			<p align = "justify"> 
+			Kundu et al. (2020) <br> <br>
+			<a href="https://github.com/jagadishkundu/templatemo_549_business_oriented/archive/master.zip"> QuickRMR </a>
+			</p>
+
+		</div>
+		
+					
+
+		<div class="main">		
+
+			<h1>Send me a message</h1>
+
+			<div class="container">
+			  <form id = "gform" name = "gform" target = "hidden_iframe" onsubmit = "submitted = true;"
+			  action="https://docs.google.com/forms/d/e/1FAIpQLSeal1JqfqPW9-imfHTk3KNwoSnVlLV9nQvsZDr_IPg5dc1wSw/formResponse?">
+			  
+				<label for="entry.1458076125">First Name</label>
+				<input type="text" id="entry.1458076125" name="entry.1458076125" placeholder="Your name..">
+
+				<label for="entry.1394954107">Last Name</label>
+				<input type="text" id="entry.1394954107" name="entry.1394954107" placeholder="Your last name..">
+				
+				<label for="entry.1394954107">E-mail</label>
+				<input type="text" id="entry.1394954107" name="entry.1394954107" placeholder="Your e-mail id..">
+
+				<label for="entry.2115338765">Message</label>
+				<textarea id="entry.2115338765" name="entry.2115338765" placeholder="Write your message.." style="height:200px"></textarea>
+
+				<input type="submit" value="Send">
+			  </form>
+			  
+				<iframe name = "hidden_iframe" id = "hidden_iframe"
+				style = "display:none;" onload = "if(submitted){}"></iframe>
+			<script
+			  src="https://code.jquery.com/jquery-3.4.1.js"
+			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+			  crossorigin="anonymous"></script>
+			  
+			  <script type = "text/javascript">
+			  var submitted = false;
+			  </script>
+				
+			  <script type = "text/javascript">
+			  $ ('#gform').on('submit', function(e){
+			  $ ('#gform *').fadeout(2000);
+			  $ ('#gform').prepend ('Your messsage has been sent.');
+			  });
+			  
+			  </script>
+			  		  
+			  
+			</div>
+
+
+		</div>
+	
+		<div id = "footer">
+		<p align= "left">
+		<u> Contact</u> <br>
+			Jagadish Kundu <br> 
+			Department of Applied Geology <br>
+			IIT (ISM) Dhanbad, Jharkhand - 826004, India <br>
+			E-mail:	jagadishkundu92@gmail.com <br>
+		</p>
+		
+		</div>
+	
+	
+</body>
+ 
+</html>

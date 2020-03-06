@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+<title> Home </title>
+
+		<link type="text/css" rel="stylesheet" href="stylesheet.css">
+		
+		<meta name="Description" content="Personal website of Jagadish Kundu which contains his Research work and publications. Also to access the softwares like QuickRMR, EasySMR and GISMR, developed by developed by Jagadish Kundu."/>
+		<meta name="keywords" content="RMR, SMR, QuickRMR, Easysmr, GISMR, Jagadish Kundu"/>
+		<meta http-equiv="authors" content = "Jagadish Kundu"/>
+		<meta http-equiv="content-language" content = "en-uk"/>
+
+</head>
+ 
+<body>
+
+
+		<div id = "header">
+			<img src = "myphoto.jpg" alt "Jagadish Kundu">
+			<h1> Jagadish Kundu <br> </h1>
+			<p>	PhD Student (Engineering geology)<br>
+					IIT-ISM Dhanbad </p>
+		
+		</div>
+		
+
+
+		<div id = "navbar">
+		 
+			<ul>
+				  <li class = "active"><a id ="home" href="index">Home</a></li>
+				  <li ><a id ="about" href="about">About me</a></li>
+				  <li ><a id ="research" href="research">Research</a></li>
+				  <li ><a id ="software" href="software">Software</a></li>
+				  <li ><a id ="contact" href="contact1">Contact</a></li>
+			</ul>
+			<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+			<script type = text/javascript>
+			
+			$(document).on('click', 'ul li', function() {
+				$(this).addClass('active').siblings().removeClass('active')
+				)
+			
+			</script>
+			
+		 
+		</div>
+	
+	
+		
+		<div class="sideright">
+			<h3 align = "center", "justify" > About this website </h3>
+			<p align = "justify"> 
+			The purpose of this website is to share my research and other relevant informations regarding my academic career. The website also serves as my curriculum vita. 
+			<br> <br> This page contains recent updates regarding my work and publications.
+			</p>
+
+		</div>
+	
+		<div class="sideright">
+			<h3 align = "center", "justify" > About Jagadish Kundu </h3>
+			<p align = "justify"> 
+			I am Currently a PhD student at IIT-ISM Dhanbad doing research in the field of engineering geology (slope stability and landslides).
+			</p>
+
+		</div>
+	
+		<div class="sideright">
+			<h3 align = "center", "justify" > Quick links </h3>
+			<p align = "justify"> 
+			Kundu et al. (2020) <br> <br>
+			<a href="https://github.com/jagadishkundu/templatemo_549_business_oriented/archive/master.zip"> QuickRMR </a>
+			</p>
+
+		</div>
+
+		<div class="main">
+			<h1> The QuickRMR Application </h1>
+
+			<p align="justify">
+			'QuickRMR' is a windows computer program and has been developed to 
+			calculate both RMR89 and RMR14 using the new continuous functions 
+			proposed by Kundu et al. (2020). This computer program aims at making 
+			the RMR determination automatic, easy and convenient. The program is 
+			freely available and is distributed under an open-source license. The user
+			can calculate, store, update and delete RMR data for several locations 
+			and finally can export ratings of each parameter for all location to
+			an MS Excel file. The application has been written in Visual C#.
+				 
+			</p>
+			
+			<img src = "SplashScreen.jpg" alt "Tunnel portal" class="imgcenter">
+			<p align = "center" class="caption" > 
+			Rock mass at a tunnel portal containing 
+			diverse lithological and structural condition. 
+			The portal has been partially installed with support systems. 
+			(Photo credit: Dr. Harsh K. Verma, Sr. Scientist, CSIR-CIMFR) 
+			</p>
+			<img src = "QuickRMR89.jpg" alt "QuickRMR_RMR89 User Interface" class="imgcenter">
+			<p align = "center" class="caption"> User Interface of RMR89 in QuickRMR application </p>
+			
+		</div>
+		
+	
+		<div id = "footer">
+		<p align= "left">
+		<u> Contact</u> <br>
+			Jagadish Kundu <br> 
+			Department of Applied Geology <br>
+			IIT (ISM) Dhanbad, Jharkhand - 826004, India <br>
+			E-mail:	jagadishkundu92@gmail.com <br>
+		</p>
+		
+		</div>
+	
+	
+</body>
+ 
+</html>
